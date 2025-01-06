@@ -1,0 +1,143 @@
+.details{
+  width: 100%;
+}
+.nav{
+    height: 65px;
+    position: static;
+    background: rgba(132, 10, 10, 0.999);
+}
+.banner{
+    background-image:linear-gradient(rgba(8,0,58,0.7),rgba(8,0,58,0.7)) ,url('../assets/hero.jpg');
+    height: 210px;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.web-development {
+    padding: 33px;
+    max-width: 98%;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    text-align: center;
+    color: #1a1a1a;
+  }
+  
+  .paragraph {
+    margin-left: 100px;
+    font-size: large;
+    margin-right: 100px;
+    text-align: justify;
+    color: #555;
+    line-height: 1.6;
+  }
+  .content-section {
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    height: 400px;
+    gap: 15px;
+  }
+  .image-container{
+    width: 100%;
+    
+    margin-left: 30px;
+  }
+  .features{
+    width: 100%;
+    margin-left: 20px;
+    margin-bottom: 25px;
+  }
+  .image-container img{
+    border-radius: 8px;
+    margin-left: 50px;
+    width: 85%;
+    height: 300px;
+  }
+ 
+.features-header {
+    color: #1a1a1a;
+    margin-bottom: 25px;
+  }
+  
+  .features-list {
+    list-style: none;
+    padding: 0;
+    color: #333;
+    line-height: 1.8;
+  
+  }
+  
+  .features-list li {
+    margin-bottom: 10px;
+    font-size: large;
+    
+  }
+@media (max-width: 800px) {
+    .paragraph{
+        margin-left: 30px;
+        font-size: medium;
+        margin-right: 30px;
+    
+    }
+    .features-list li{
+        line-height: 1;
+        font-size: 16px;
+    }
+    .image-container img{
+      height: 250px;
+      width: 100%;
+      margin-left: 0px;
+      
+    }
+    .features{
+      margin-left: 0px;
+    }
+
+    .content-section{
+      padding-left: 0px;
+      /* margin-bottom: 75px; */
+      margin-bottom: 0px;
+
+    
+    }
+    .image-container{
+      margin-bottom: 100px;
+    }
+    .features{
+      margin-bottom: 100px;
+    }
+
+
+
+}
+@media (max-width: 600px){
+    .paragraph{
+        margin-left: 30px;
+        font-size: 18px;
+        margin-right: 30px;
+    }
+    .content-section{
+      flex-wrap: wrap;
+      margin-bottom: 250px;
+      
+    }
+    .image-container{
+      margin-left: 5px;
+    }
+    .features{
+      margin-top: -65px;
+    }
+    .features-list li{
+      font-size: 18px;
+    }
+}
+
+
+

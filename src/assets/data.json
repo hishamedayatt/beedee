@@ -1,0 +1,26 @@
+{
+    "services" :[
+        {
+          "Image": "./custom.png",
+          "title": "Business Setup (Free Zone/Mainland)",
+          "description": "Whether you’re starting a new venture or expanding your operations, setting up a business in the UAE requires navigating complex regulations and processes."
+        },
+        {
+          "Image":"./custom1.png",
+          "title": "Customs Clearance",
+          "description": "Customs clearance can be a significant challenge, especially for businesses new to international trade."
+        },
+        {
+          
+          "Image": "./custom2.png",
+          "title": " Documentation Assistance",
+          "description": "Proper documentation is the backbone of any successful business operation. We provide end-to-end assistance."
+        },
+        {
+        
+          "Image": "./custom3.png",
+          "title": "Visa & Immigration Services",
+          "description": "Managing visas and immigration processes can be time-consuming and overwhelming. We simplify the process."
+        }
+      ]
+}
